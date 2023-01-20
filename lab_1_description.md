@@ -1,16 +1,16 @@
 
 # Project creation
-1. Start the project
-    a. Use the Windows key to bring up the search bar for Vivado
-    b. Start Vivado
-    c. Under Quick Start, choose Create Project
-    d. Hit Next to use the assist at creating projects (Wizard)
-    e. Fill in the project name (lab1_gates) and file location
-    f. Default is rtl project, which is what you want so just click Next
-    g. Don't create a new file yet, just click Next.
-    h. No constraint file yet, so just click Next again.
-    i. Select the `parts` -> Category:-> `general purpose` -> Family: `Zynq-7000` -> `xc7z020clg484-3`
-    j. Choose Finish
+Start the project
+    1. Use the Windows key to bring up the search bar for Vivado
+    2. Start Vivado
+    3. Under Quick Start, choose Create Project
+    4. Hit Next to use the assist at creating projects (Wizard)
+    5. Fill in the project name (lab1_gates) and file location
+    6. Default is rtl project, which is what you want so just click Next
+    7. Don't create a new file yet, just click Next.
+    8. No constraint file yet, so just click Next again.
+    9. Select the `parts` -> Category:-> `general purpose` -> Family: `Zynq-7000` -> `xc7z020clg484-3`
+    10. Choose Finish
 
 # Editing file
 1. In the middle Sources window choose the plus tab.
