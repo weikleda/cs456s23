@@ -23,7 +23,7 @@ Start the project
 8. Double click on the file and it will open a window on the right side.
 9. Fill in the team member names under Engineer. As well as the other pertinent information.
     
-3. Create the `AND`  gate by typing in the Verilog below.
+3. Create the `AND`  gate by typing in the Verilog below. Note that this module is not really necessary, but this is a learning experience. The and gate specification within the verilog module, and(out, a, b), is and example of structural verilog.
 
 <!--    ## Format -->
  <!--    *gate*(*output*, *input1*, *input2*) -->
