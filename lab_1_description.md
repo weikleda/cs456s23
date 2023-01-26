@@ -39,7 +39,7 @@ and(out, a, b);
 endmodule
 ```
 
-4. View the gate 
+# Viewing the schematic
 
     RTL Analysis -> Open Elaborated Design 
 
