@@ -40,8 +40,7 @@ endmodule
 ```
 
 # Viewing the schematic
-
-    RTL Analysis -> Open Elaborated Design 
+RTL Analysis -> Open Elaborated Design 
 
     ![And gate](and_gate_logic.png)
     
