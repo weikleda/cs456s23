@@ -42,7 +42,7 @@ endmodule
 # Viewing the schematic
 RTL Analysis -> Open Elaborated Design 
 
-    ![And gate](and_gate_logic.png)
+![And gate](and_gate_logic.png)
     
 # Simulation
 1. `Run simulation` -> `Run behavioral simulation`
