@@ -44,6 +44,7 @@ endmodule
     RTL Analysis -> Open Elaborated Design 
 
     ![And gate](and_gate_logic.png)
+    
 # Simulation
 1. `Run simulation` -> `Run behavioral simulation`
 2. Use the tcl (the command line) commands or UI (user interface) buttons to run the simulation. tcl commands are listed below to run the simulation
