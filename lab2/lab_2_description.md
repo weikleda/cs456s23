@@ -12,16 +12,16 @@ It is useful to finish these designs as they are a part of later projects and la
 
 ## Project creation
 Start the project
-1. Use the Windows key to bring up the search bar for Vivado.
-2. Start Vivado.
+1. Use the `Windows` key to bring up the search bar for `Vivado`.
+2. Start `Vivado`.
 3. Under Quick Start, choose Create Project.
-4. Hit Next to use the assist at creating projects (Wizard).
-5. Fill in the project name (lab2_combo) and file location.
+4. Hit Next to use the assist at creating projects Wizard.
+5. Fill in the project name `lab2_combo` and file location.
 6. Default is rtl project, which is what you want so just click Next.
 7. Don't create a new file yet, just click Next.
 8. No constraint file yet, so just click Next again.
-9. Select the `parts` -> Category:-> `general purpose` -> Family: `Zynq-7000` -> `xc7z020clg484-3`.
-10. Choose Finish.
+9. Select the `parts` -> Category: `general purpose` -> Family: `Zynq-7000` -> `xc7z020clg484-3`.
+10. Choose `Finish`.
 
 # Individual Designs
 
@@ -29,7 +29,7 @@ Start the project
 
 ## Editing file
 1. In the middle Sources window choose the plus tab.
-2. Choose add or create design sources. Click Next.
+2. Choose add or create design sources. Click `Next`.
 4. Create new file by choosing the plus tab again, -> Create File. Name it `combo_eq`.
 5. In the future you can specify parameters to your Module here, but for now lets make sure 
    to learn the whole structure of a Verilog program so you can write it yourself. Just click OK.
@@ -40,8 +40,8 @@ Start the project
 
 -------
 ## Write Verilog for x = a'b'+ ab
-1. Write structural verilog for the boolean logic expression x = a'b' + ab.
-2. Create the 'schematic' and verify it is the correct circuit. Recall `RTL analysis` -> 'Open Elaborated Design'
+1. Write structural verilog for the boolean logic expression `x = a'b' + ab`. File name should be `combo_eq`.
+2. Create the 'schematic' and verify it is the correct circuit. Recall `RTL analysis` -> `Open Elaborated Design`
 3. Edit your verilog if necessary.
 4. Once your verilog and circuit are correct get screen captures for your report.
 5. Using the procedures learned in a prior lab, force values to create a timing diagram that demonstrates the circuit is functioning correctly.
@@ -53,7 +53,7 @@ ____
 
 ## Multiplexor behavior (2 - 1)
 
-A multiplexor is a digital circuit that can select one of `n` inputs (here n is 2) and redirect that input to the output. The selection is done by the select input(s). To select one of several inputs, we need m select lines such that 2<sup>m</sup>=n. 
+A multiplexor is a digital circuit that can select one of `n` inputs (here `n` is `2`) and redirect that input to the output. The selection is done by the select input(`s`). To select one of several inputs, we need m select lines such that 2<sup>m</sup>=n. 
 
 For example, if there are 8 input lines, we need 3 select bits to be able to select all input lines (2<sup>3</sup>=8).
 
@@ -61,15 +61,12 @@ In this lab, we will build a two to one multiplexor. Two inputs lines will go in
 
 ## Write Verilog for the one-bit (2-1) multiplexor
 1. Write structural verilog for the one bit full adder. Name this module `mux_2_1` and saved to `lab_2`.
-2. Create the 'schematic' and verify it is the correct circuit. Recall `RTL analysis` -> 'Open Elaborated Design'
+2. Create the `schematic` and verify it is the correct circuit. Recall `RTL analysis` -> `Open Elaborated Design`
 3. Edit your verilog if necessary.
 4. Once your verilog and circuit are correct get screen captures for your report.
-5. Using the procedures learned in a prior lab, force values to create a timing diagram that demonstrates the circuit is functioning correctly. Note there are 8 different possible input patters because there are three inputs. You only need to show the results for when the two inputs, `d1` and `d0`, are different.
+5. Using the procedures learned in a prior lab, force values to create a timing diagram that demonstrates the circuit is functioning correctly. Note there are 8 different possible input patters because there are three inputs. You only need to show the results for when the two inputs, `d0` and `d1`, are different.
 6. Create a screen capture of the timing diagram for your lab report.
 ___
-
-
--------
 
 # Full Adder
 ---
@@ -81,7 +78,7 @@ A one-bit full adder will take in 3 one-bit inputs: two 1-bit inputs representin
 
 ## Write Verilog for the one-bit full adder
 1. Write structural verilog for the one bit full adder. Name this module `full_adder` and saved to `lab_2`.
-2. Create the 'schematic' and verify it is the correct circuit. Recall `RTL analysis` -> 'Open Elaborated Design'
+2. Create the 'schematic' and verify it is the correct circuit. Recall `RTL analysis` -> `Open Elaborated Design`
 3. Edit your verilog if necessary.
 4. Once your verilog and circuit are correct get screen captures for your report.
 5. Using the procedures learned in a prior lab, force values to create a timing diagram that demonstrates the circuit is functioning correctly.
