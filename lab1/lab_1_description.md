@@ -92,3 +92,23 @@ RTL Analysis -> Open Elaborated Design
 10. Once you have a timing diagram of all possible input and output combinations of an AND gate, ask the TA or instructor to view your diagram. They will ask you a few "check-off" questions. 
 11. Take a screen shot of the circuit and the timing diagram for your lab report. You will submit a lab report to Canvas. For today's lab that will simply be a header with Lab 01 - Gates, on the top right hand side should be the names of the lab partners. Then you should insert your screen shots of the circuit and timing diagram.
 12. A lab report with only the AND gate screen shots will be 70%. Try to also simulate OR, XOR and NOT and take circuit and timing diagram screen shots. Each of these will be worth 10%.
+
+# Automated simulation scripts (TCL commands)
+
+You can also write a series of TCL commands in a text editor. Then, you can copy all TCL commands and paste them in the `tcl console`. That way you can make the simulation faster and in organized manner. Here is a tcl command to simulate the `OR gate`
+```verilog
+// OR gate
+add_force a {1 0ns}
+add_force b {0 0ns}
+run 10ns
+add_force a {1 0ns}
+add_force b {1 0ns}
+run 10ns
+add_force a {0 0ns}
+add_force b {1 0ns}
+run 10ns
+add_force a {0 0ns}
+add_force b {0 0ns}
+run 10ns
+
+```
