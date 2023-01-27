@@ -72,9 +72,9 @@ ___
 ---
 
 ## Full adder behavior 
-A full adder circuit is the basic fundamental circuit that can perform addition or subtraction. It adds together two binary digits and a carry_in bit to produce the sum and carry_out digit. For example, 8 Full adders can be connected in series to make an 8 bit adder that will add two 8-bit numbers in either unsigned binary or two's complement representation.
+A full adder circuit is the basic fundamental circuit that can perform addition or subtraction. It adds together two binary digits and a `carry_in` bit to produce the `sum` and `carry_out` digit. For example, 8 Full adders can be connected in series to make an 8 bit adder that will add two 8-bit numbers in either unsigned binary or two's complement representation.
 
-A one-bit full adder will take in 3 one-bit inputs: two 1-bit inputs representing the digits to add and a one 1-bit carry_in. The full adder will have two outputs: a 1-bit sum and 1-bit carry_out that when used in conjunction with other one-bit adders will be the carry_in to the next more significant bit of the addition. 
+A one-bit full adder will take in 3 one-bit inputs: two 1-bit inputs representing the digits to add and a one 1-bit `carry_in`. The full adder will have two outputs: a 1-bit `sum` and 1-bit `carry_out` that when used in conjunction with other one-bit adders will be the `carry_in` to the next more significant bit of the addition. 
 
 ## Write Verilog for the one-bit full adder
 1. Write structural verilog for the one bit full adder. Name this module `full_adder` and saved to `lab_2`.
