@@ -60,7 +60,7 @@ For example, if there are 8 input lines, we need 3 select bits to be able to sel
 In this lab, we will build a two to one multiplexor. Two inputs lines will go into the multiplexor and the output will be one of those inputs. A single bit will select which input will be reflected on the output. The two input lines should be labeled `d0` and `d1`. `d0` should be displayed on the output called `out` when the input labelled `select` is 0 and `d1` should be displayed when `select` is 1.
 
 ## Write Verilog for the one-bit (2-1) multiplexor
-1. Write structural verilog for the one bit full adder. Name this module `mux_2_1` and saved to `lab_2`.
+1. Write structural verilog for the one bit (2-1) multiplexor. Name this module `mux_2_1` and saved to `lab_2`.
 2. Create the `schematic` and verify it is the correct circuit. Recall `RTL analysis` -> `Open Elaborated Design`
 3. Edit your verilog if necessary.
 4. Once your verilog and circuit are correct get screen captures for your report.
