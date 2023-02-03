@@ -3,7 +3,7 @@
 Reminder: Please put your name(s) in the Verilog code and label all parts of your lab report.
 
 # Submission Details
-Today's lab will be a pdf report again submitted to Canvas. Ideally you will submit 4 designs. The first three we will give you introducing an always block with and without a clock. You will build the circuit and run a simulation using a provided testbench, and the third will be your version of a D-write latch. Today's lab will be graded as follows: 
+Today's lab will be a pdf report again submitted to Canvas. Ideally you will submit 3 designs. The first three we will give you introducing an always block with and without a clock. You will build the circuit and run a simulation using a provided testbench, and the third will be your version of a D-write latch. Today's lab will be graded as follows: 
 1. Always block example without clock (schematic, timing diagram): 3 pts
 2. Always block example with clock (schematic, timing diagram): 3 pts
 3. D latch with a write line (Verilog, schematic, timing diagram): 4 pts
