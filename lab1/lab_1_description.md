@@ -15,13 +15,13 @@ Start the project
 # Editing file
 1. In the middle Sources window choose the plus tab.
 2. Choose add or create design sources. Click Next.
-4. Create new file by choosing the plus tab again, -> Create File. Name it `and_gate`.
-5. In the future you can specify parameters to your Module here, but for now lets make sure 
+3. Create new file by choosing the plus tab again, -> Create File. Name it `and_gate`. Click Finish.
+4. In the future you can specify parameters to your Module here, but for now lets make sure 
    to learn the whole structure of a Verilog program so you can write it yourself. Just click OK.
-6. Click Yes.
-7. Now you will notice in the Sources Window under Design Sources that the and_gate file has been created.
-8. Double click on the file and it will open a window on the right side.
-9. Fill in the team member names under Engineer. As well as the other pertinent information.
+5. Click Yes.
+6. Now you will notice in the Sources Window under Design Sources that the and_gate file has been created.
+7. Double click on the file and it will open a window on the right side.
+8. Fill in the team member names under Engineer. As well as the other pertinent information.
     
 Create the `AND`  gate by typing in the Verilog below. Note that this module is not really necessary, but this is a learning experience. The and gate specification within the verilog module, and(out, a, b), is and example of structural verilog.
 
