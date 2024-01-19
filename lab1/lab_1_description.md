@@ -60,7 +60,7 @@ RTL Analysis -> Open Elaborated Design
     2) tcl console -> add_force *input name* {value timestep}
         
        ``` verilog 
-        add_force A {1 0ns} 
+        add_force {/and_gate/a} -radix hex {1 0ns} 
         ```
 6. Step into timestep to see the wave form (timing diagram) of the signal
    
@@ -98,17 +98,17 @@ RTL Analysis -> Open Elaborated Design
 You can also write a series of TCL commands in a text editor. Then, you can copy all TCL commands and paste them in the `tcl console`. That way you can make the simulation faster and in organized manner. Here is a tcl command to simulate the `OR gate`
 ```verilog
 // OR gate
-add_force a {1 0ns}
-add_force b {0 0ns}
+add_force {/and_gate/a} -radix hex {1 0ns}
+add_force {/and_gate/b} -radix hex {0 0ns}
 run 10ns
-add_force a {1 0ns}
-add_force b {1 0ns}
+add_force {/and_gate/a} -radix hex {1 0ns}
+add_force {/and_gate/b} -radix hex {1 0ns}
 run 10ns
-add_force a {0 0ns}
-add_force b {1 0ns}
+add_force {/and_gate/a} -radix hex {0 0ns}
+add_force {/and_gate/b} -radix hex {1 0ns}
 run 10ns
-add_force a {0 0ns}
-add_force b {0 0ns}
+add_force {/and_gate/a} -radix hex {0 0ns}
+add_force {/and_gate/b} -radix hex {0 0ns}
 run 10ns
 
 ```
